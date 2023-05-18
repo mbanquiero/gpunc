@@ -1,0 +1,2 @@
+c:\cuda\nep\x64\Debug\nep.exe
+c:\cuda\nep\x64\Debug\nep.pdb

@@ -1,0 +1,178 @@
+﻿  Compiling CUDA source file psystem.cu...
+  
+  C:\cuda\nep\psystem>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\psystem.cu.obj "C:\cuda\nep\psystem\psystem.cu" 
+C:/cuda/nep/psystem/psystem.cu(43): warning : variable "t" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(548): warning : variable "rta" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(550): warning : variable "nro_ejemplo" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(691): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(691): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(694): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(694): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(697): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(697): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(704): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(704): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(707): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(707): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(659): warning : variable "rta" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(661): warning : variable "nro_ejemplo" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(815): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(815): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(818): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(818): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(821): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(821): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(828): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(828): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(831): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(831): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(783): warning : variable "rta" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(785): warning : variable "nro_ejemplo" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(893): warning : variable "t" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(955): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(955): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(957): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(957): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(960): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(960): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(964): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(964): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(966): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(966): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(968): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(968): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(970): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(970): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(976): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(976): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(915): warning : variable "rta" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(917): warning : variable "nro_ejemplo" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(1138): warning : variable "t" was declared but never referenced
+  
+C:/cuda/nep/psystem/psystem.cu(1559): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(691): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(691): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(694): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(694): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(697): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(697): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(704): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(704): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(707): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(707): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(815): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(815): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(818): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(818): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(821): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(821): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(828): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(828): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(831): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(831): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(955): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(955): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(957): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(957): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(960): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(960): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(964): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(964): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(966): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(966): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(968): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(968): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(970): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(970): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(976): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(976): warning : conversion from a string literal to "char *" is deprecated
+  
+C:/cuda/nep/psystem/psystem.cu(1559): warning : conversion from a string literal to "char *" is deprecated
+  
+  psystem.cu
+C:/cuda/nep/psystem/psystem.cu(868): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:/cuda/nep/psystem/psystem.cu(1218): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:/cuda/nep/psystem/psystem.cu(1228): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  psystem.vcxproj -> C:\cuda\nep\x64\Debug\psystem.exe
