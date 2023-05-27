@@ -106,8 +106,11 @@ void domain_init()
 
     char *word = new char[DIMW];
     memset(word, 0, DIMW);
-    //    strcpy(word, "<aCD><AbD><Acd>");
-    //strcpy(word, "<a><b><c><d><e><f><g><h><i><j><k><l><m><n><o><caja><cafe><face>");
+    //strcpy(word, "<aCD><AbD><Acd>");
+
+    strcpy(word, "<a><b><c><d><e><f><g><h><i><j><k><l><m><n><o><caja><cafe><face>");
+
+    /*
     int t = 0;
     for (int i = 0; i < NUM_VAR; ++i)
     {
@@ -118,7 +121,7 @@ void domain_init()
 
     //strcpy(word, "<a><b><c><d><e><f><g><h><i><j><k><l><m><n><o>");
     //strcpy(word, "<aaa><bbb><ccc><ddd><eee><fff><ggg><hhh><iii><jjj><kkk><lll><mmm><nnn><ooo>");
-
+    */
 
     // inicializo las palabras
     memset(data0, 0, BSIZE);

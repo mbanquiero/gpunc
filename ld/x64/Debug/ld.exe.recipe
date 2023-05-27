@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <ProjectOutputs>C:\cuda\nep\x64\Debug\ld.exe</ProjectOutputs>
+  <ProjectOutputs>c:\cuda\nep\x64\Debug\ld.exe</ProjectOutputs>
   <ContentFiles></ContentFiles>
   <SatelliteDlls></SatelliteDlls>
   <NonRecipeFileRefs></NonRecipeFileRefs>

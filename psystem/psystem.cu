@@ -719,9 +719,10 @@ void ej_divide()
 //        N[i] = 1 + rand() % 100000;
 //        K[i] = 1 + rand() % N[i];
         
-        // genero un multiplo de k con 50% de probabilidad
+        // genero un multiplo de k anulo:(con 50% de probabilidad)
         K[i] = 1 + rand() % 100000;
-        N[i] = (1 + rand() % 32) * K[i];// +rand() % 2;
+        N[i] = (1 + rand() % 32) * K[i];/* +rand() % 2*/;
+        // son todos multiplos
 
 
         int cant_O = i * MAX_OBJECTS;
@@ -1546,8 +1547,8 @@ int main()
     //ejn2();
 
     // ejemplo primos
-//    for(int p = 99988;p< 99993;++p)
-  //      ej_ptest(p);
+    //for(int p = 99988;p< 99993;++p)
+      //   ej_ptest(p);
    
 //    ej_ptest(99989);
     //ej_ptest(151*149);      // 22499 no es primo

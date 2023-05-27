@@ -62,7 +62,7 @@ w1:={123}
 w2:={aBc}
 w3:={bc}
 w4:={Ac}
-w5:={C}
+w5:={c}
 
 // imprimir a la salida
 output:=count(6)

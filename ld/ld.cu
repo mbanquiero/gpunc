@@ -16,7 +16,7 @@
 //#define L_STRING "abba"
 
 //#define TARGET_STRING "miaaariririariarfirfifid"
-#define TARGET_STRING "miaaariririariarfirifid"
+#define TARGET_STRING "miiiaaaiaiarrrfarfrfrfiiiifd"
 #define L_STRING "miarfid"
 
 

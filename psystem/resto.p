@@ -13,7 +13,7 @@ r6:0Cc[1]->0c[1]C[3]
 r1>r3
 r2>r3
 // objetos en cada membrana
-w2:={a^35 c^13 d 0}
+w2:={a^39 c^13 d 0}
 // imprimir a la salida
 output:=count(3)
 cant_cells:=1

@@ -12,7 +12,7 @@ r1>r3
 r2>r3
 r4>r5
 // objetos en cada membrana
-w2:={a^9989 c^3 d}
+w2:={a^99 c^3 d}
 // imprimir a la salida
 output:=objects(3)
 cant_cells:=1

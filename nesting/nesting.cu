@@ -5,6 +5,7 @@
 
 // reglas estrictas: tiene que aplicar todas la reglas. 
 
+
 // helper hack de piezas
 __device__ int info_piece(int *p,int N, char *id)
 {
@@ -177,7 +178,7 @@ __device__ bool passOutFilter(char* W, int N, const int DIMW, const int NUMPROC)
 }
 
 // determina si un string pasa el filtro de entrada
-__device__ bool passInFilter(char* W, int N, const int DIMW, const int NUMPROC)
+__device__ bool passInFilter(char* W, int N, const int DIMW, const int NUMPROC,const int Nfrom)
 {
     bool pass = true;
     char id;

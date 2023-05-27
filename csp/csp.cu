@@ -133,9 +133,6 @@ __device__ bool passOutFilter(char* W, int N, const int DIMW, const int NUMPROC)
 // determina si un string pasa el filtro de entrada
 __device__ bool passInFilter(char* W, int N, const int DIMW, const int NUMPROC, const int Nfrom)
 {
-    // restriccion que no quiereo que la pieza A vaya al comienzo
-    if (N == NUMPROC - 1 && W[0] == 'A')
-        return false;
     bool pass = true;
     for (int t = 0; t < DIMW && pass; ++t)
     {

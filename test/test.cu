@@ -112,7 +112,7 @@ __device__ char srule(char c, int N, const int NUMPROC)
 
 
 // determina si un string pasa el filtro de salida
-__device__ bool passOutFilter(char* W, int N, const int DIMW)
+__device__ bool passOutFilter(char* W, int N, const int DIMW, const int NUMPROC)
 {
     bool pass = true;
     for (int t = 0; t < DIMW && pass; ++t)
@@ -137,7 +137,7 @@ __device__ bool passInFilter(char* W, int N, const int DIMW, const int NUMPROC, 
 }
 
 
-int test_DIMW = 12;
+int test_DIMW = 64;
 int test_NUMBLOCKS = 2;
 int test_NUMTHREADS = 2;
 
@@ -154,7 +154,7 @@ void domain_init()
     char *word = new char[DIMW];
     //for (int j = 0; j < DIMW; ++j)
     //    word[j] = 'a' + rand() % (NUMPROC - 1);
-    strcpy(word, "miarfid abba");
+    strcpy(word, "esta es una prueba");
 
     // inicializo las palabras
     memset(data0, 0, BSIZE);
